@@ -1,10 +1,29 @@
 {
-    "tasks": [
-      { "id": 1, "name": "I don't have any tasks", "description": "typicode" },
-      { "id": 2, "name": "Bad boy", "description": "Don't know" },
-      { "id": 3, "name": "Not Happy", "description": "AJ" },
-      { "id": 4, "name": "json-server", "description": "typicode" },
-      { "id": 5, "name": "json-server", "description": "typicode" }
-
-    ]
-  }
+  "tasks": [
+    {
+      "id": "2023-09-29T12:23:22.361Z",
+      "taskname": "UX of PDP page",
+      "description": "I don't want to work on that"
+    },
+    {
+      "id": "2023-09-29T12:42:42.765Z",
+      "taskname": "vivek Mayuri",
+      "description": "good In JS"
+    },
+    {
+      "id": "2023-09-30T13:57:51.434Z",
+      "taskname": "tailwind",
+      "description": "css"
+    },
+    {
+      "id": "2023-09-30T14:03:04.775Z",
+      "taskname": "Task2 is react",
+      "description": "Good React task"
+    },
+    {
+      "id": "2023-10-01T10:33:19.779Z",
+      "taskname": "DigiSprint Solutions",
+      "description": "good Developer Provided."
+    }
+  ]
+}

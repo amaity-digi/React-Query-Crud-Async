@@ -1,19 +1,17 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import TaskLists from "./pages/TaskLists";
-import Tasks from "./pages/Tasks";
+import Task from "./pages/Task";
 import EditTask from "./pages/EditTask";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<TaskLists />} />
-          <Route path="/task/:id" element={<Tasks />} />
+          <Route path="/task/:id" element={<Task />} />
           <Route path="/task/:id/edit" element={<EditTask />} />
         </Routes>
-      </BrowserRouter>
     </div>
   );
 }
