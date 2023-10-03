@@ -6,11 +6,6 @@
       "description": "I don't want to work on that"
     },
     {
-      "id": "2023-09-29T12:42:42.765Z",
-      "taskname": "vivek Mayuri",
-      "description": "good In JS"
-    },
-    {
       "id": "2023-09-30T13:57:51.434Z",
       "taskname": "tailwind",
       "description": "css"
@@ -19,11 +14,6 @@
       "id": "2023-09-30T14:03:04.775Z",
       "taskname": "Task2 is react",
       "description": "Good React task"
-    },
-    {
-      "id": "2023-10-01T10:33:19.779Z",
-      "taskname": "DigiSprint Solutions",
-      "description": "good Developer Provided."
     }
   ]
 }

@@ -3,6 +3,7 @@ import AddTask from '../components/AddTask'
 import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query'
 import { deletetask, fetchTasks } from '../services/Tasks';
 import { useNavigate } from 'react-router-dom';
+import toast from 'react-hot-toast';
 
 function TaskLists() {
   const navigate = useNavigate();
@@ -15,8 +16,10 @@ function TaskLists() {
   const deleteMutation = useMutation({
     mutationFn: deletetask,
     onSuccess: () => {
+      toast.success("Deleted task!");
       queryClient.invalidateQueries({queryKey: ['tasks']})
-    }
+    },
+    onError: (err) => toast.error("Error Message!")
   })
 
   const handleDeleteTask = (id) => {
